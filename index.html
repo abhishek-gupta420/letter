@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Merge With Me?</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #f5af19, #f12711);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .highlight {
+            color: #ffdd00;
+            font-weight: bold;
+        }
+        .btn {
+            background-color: #ffdd00;
+            border: none;
+            padding: 15px 30px;
+            color: #000;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #f1c40f;
+        }
+        /* Modal styles */
+        .modal {
+            display: none; 
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 400px;
+            text-align: center;
+        }
+        .modal-content p {
+            color: #333;
+        }
+        .close-btn {
+            background-color: #f12711;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dear Shuturmurg,</h1>
+        <p>
+            They say opposites attract, and here we are—I'm a Java backend developer, orchestrating the logic in the shadows, while you, the glamorous front-end developer, create those pixel-perfect interfaces that users swoon over. 
+        </p>
+        <p>
+            Without me, your buttons wouldn't click, but without you, no one would care to click them. <span class="highlight">A match made in developer heaven</span>, wouldn’t you say?
+        </p>
+        <p>
+            I’ve been debugging my feelings for you for a while now, and after extensive testing, I can confirm that my love for you is not a null pointer. So, here’s my pull request: will you merge your heart with mine? 
+        </p>
+        <p>
+            If you agree to accept this humble proposal, our relationship will never experience latency. I promise to scale my affection to match yours, and together, we’ll never hit a 404 in communication!
+        </p>
+        <p>
+            With love that’s as infinite as recursion,<br>
+            <span class="highlight">Aapka Pyaara Khargosh</span>
+        </p>
+        <button class="btn" onclick="openModal()">Merge With Me ❤️</button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <p>P.S.: I may not be able to handle your front-end sass, but I’ll always keep the back end solid!</p>
+            <button class="close-btn" onclick="closeModal()">Got it!</button>
+        </div>
+    </div>
+
+    <script>
+        // Function to open the modal
+        function openModal() {
+            document.getElementById('myModal').style.display = 'flex';
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
